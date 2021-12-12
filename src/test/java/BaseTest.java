@@ -29,7 +29,7 @@ public class BaseTest {
         WebElement signInButton = webDriver.findElement(By.className("dropdown-toggle"));
         signInButton.click();
 
-        WebElement email = webDriver.findElement(By.id("inputEmailDiv"));
+        WebElement email = webDriver.findElement(By.id("LoginEmail"));
         email.click();
         email.sendKeys("Your Mail Adress");
 
